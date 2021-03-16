@@ -12,7 +12,7 @@ namespace DapperLesson.Data
 
         public DataAccess()
         {
-            factory = DbProviderFactories.GetFactory("ConnectedLessonProvider");
+            factory = DbProviderFactories.GetFactory("DapperLessonProvider");
 
             connection = factory.CreateConnection();
 
